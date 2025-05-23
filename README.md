@@ -45,9 +45,6 @@ Estos campos son manejados tanto por el bot como por Power Apps para mantener un
 ---
 
 ## ⚙️ Instalación y Ejecución del Bot
-
-1. Clona este repositorio y crea un archivo `.env` con las siguientes variables:
-
 ```env
 APP_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 APP_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -68,36 +65,25 @@ Actualiza NGROK_URL en app.py con la URL generada.
 ```
 
 🧪 Tecnologías Utilizadas
-Microsoft Bot Framework SDK v4
-
-SharePoint + Microsoft Graph API
-
-Microsoft Power Apps
-
-Python 3.9+
-
-aiohttp
-
-MSAL (Microsoft Authentication Library)
+- Microsoft Bot Framework SDK v4
+- SharePoint + Microsoft Graph API
+- Microsoft Power Apps
+- Python 3.9+
+- aiohttp
+- MSAL (Microsoft Authentication Library)
 
 🛠️ Funcionalidades Clave
-Procesamiento de múltiples tipos y subtipos de casos.
-
-Validaciones condicionales (ej. semestre < 6 para cambio de pensum).
-
-Registro automático de interacciones en SharePoint.
-
-GUI intuitiva para administradores en Power Apps.
-
-Escalamiento automatizado con enlaces de reunión.
+- Procesamiento de múltiples tipos y subtipos de casos.
+- Validaciones condicionales (ej. semestre < 6 para cambio de pensum).
+- Registro automático de interacciones en SharePoint.
+- GUI intuitiva para administradores en Power Apps.
+- Escalamiento automatizado con enlaces de reunión.
 
 👥 Créditos
-Este proyecto fue desarrollado como parte de la asignatura Sistemas de Información en la Universidad EAFIT por Sebastián y equipo, con el objetivo de modernizar los canales de atención estudiantil utilizando herramientas de la nube de Microsoft.
+Este proyecto fue desarrollado como parte de la asignatura Sistemas de Información en la Universidad EAFIT por Samuel Andrés Ariza Gómez y Andrés Vélez Rendón, con el objetivo de modernizar los canales de atención estudiantil utilizando herramientas de la nube de Microsoft.
 
 📂 Estructura del Proyecto
-bash
-Copy
-Edit
+```
 .
 ├── app.py                   # Servidor del bot con aiohttp
 ├── bot.py                   # Lógica del bot con Microsoft Bot Framework
