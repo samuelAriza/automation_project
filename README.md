@@ -65,6 +65,7 @@ Expón tu servidor con ngrok para recibir mensajes desde Microsoft Teams:
 ngrok http 3978
 
 Actualiza NGROK_URL en app.py con la URL generada.
+```
 
 🧪 Tecnologías Utilizadas
 Microsoft Bot Framework SDK v4
